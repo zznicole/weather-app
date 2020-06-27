@@ -16,8 +16,8 @@
           <div class="date">Saturday 27 June 2020</div>
         </div>
         <div class="weather-box">
-          <div class="temp">30°</div>
-          <div class="weather">Sunny</div>
+          <div class="temp">{{Math.round(weather.main.temp)}}°</div>
+          <div class="weather">{{weather.weather[0].main}}</div>
         </div>
       </div>
     </main>
